@@ -315,7 +315,7 @@ label > input::placeholder {
   border-radius: 6px;
   font-weight: 400;
   font-size: 15px;
-  border: 0;
+  border: 1px solid black;
 }
 
 .support2 > img {
