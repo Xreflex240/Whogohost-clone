@@ -420,3 +420,26 @@ footer {
   margin-bottom: 15px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
+.third_part {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.third_part > span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  width: 70%;
+}
+
+.third_part > ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 30%;
+}
