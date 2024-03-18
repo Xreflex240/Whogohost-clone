@@ -35,7 +35,7 @@ li > a {
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 130px;
-  /* background-image: url("/assets/background.png"); */
+  background-image: url("/assets/main-bg.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -229,6 +229,8 @@ label > input::placeholder {
   background-color: #f9f8f8;
   display: flex;
   justify-content: space-evenly;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .first_half {
@@ -442,4 +444,9 @@ footer {
   list-style: none;
   justify-content: space-evenly;
   width: 30%;
+}
+
+.navbar {
+  padding: 10px 0px !important;
+  box-shadow: none;
 }
